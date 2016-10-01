@@ -1,0 +1,501 @@
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+html {
+    font-size: 100%;
+    font-size: 16px;
+}
+
+/* Color palette */
+
+:root {
+	--tomato: #e74c3c;
+	--squash: #f39c12;
+	--dark-cream: #ffea95;
+	--golden-rod: #f1c40f;
+	--white: #d3d3d3;
+	--dark-sky-blue: #3498db;
+	--greenish-teal: #2ecc71;
+	--powder-blue: #bbdefb;
+	--topaz: #1abc9c;
+	--white-two: #f6f6f6;
+	--pale-blue: #e1f5fe;
+	--tealish: #26c6da;
+	--faded-orange: #e3a949;
+	--dull-orange: #d69f45;
+}
+
+body {
+    font-family: 'Montserrat-Light';
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	color: #9b9b9b;
+    text-align:center;
+
+}
+
+#body {
+	width: 100%;
+	height: 100%;
+}
+#logo { float: left; }
+
+#nav
+     {
+     background: none;
+      width:100%;
+      height:60px;
+      position:fixed;
+      top:0px;
+    }
+
+.title
+ {
+ display:none;
+ color:#FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+ font-size:36px;
+ width:350px;
+ margin-top:5px;
+ margin-left:0px;
+ float:left;
+}
+
+
+#navigation
+{
+ list-style-type:none; 
+}
+
+
+li 
+{ 
+ display:inline;
+ padding:0px;
+ }
+ 
+#nav a
+{
+	height: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+    align-content: center;
+	color: #ffffff;
+    padding-right: 75px; 
+} 
+
+ #nav a:hover 
+{  
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+	color: #e1f5fe;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   line-height: 1.125em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	color: #4a4a4a;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #4a4a4a;
+}
+
+h3 {
+    font-size: 18px;
+	letter-spacing: 0.2px;
+	text-align: center;
+    color:#4a4a4a;
+}
+
+h4 {
+    line-height:40px;
+    padding-bottom:20px;
+    line-height:24px;
+    font-size:18px;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom:10px;
+}
+
+h5 {
+	font-size: 36px;
+    font-family: 'Montserrat-Light'; 
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Montserrat-Light';
+	font-size: 16px;
+	text-align: center;
+	color: #4a4a4a;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    width: 300px;
+    border-top: 2.5px solid #FFF;
+    border-bottom: 2.5px solid #FFF;
+}
+
+.numbers {
+    font-family: 'Montserrat-Light';
+	font-size: 48px;
+	letter-spacing: 0.7px;
+	text-align: center;
+	color: #4a4a4a;
+}
+
+
+.tag {
+    text-align: left; 
+    margin: 5% 50% 1% 10%; 
+    margin-top: 125px;
+	 width: 300px;
+	 height: 165px;
+   padding-top:12%; 
+   margin-bottom: 10%; 
+   margin-right:5%; 
+   align-items: center;
+}
+
+ .header1 {
+    margin: 0 auto; 
+    margin-bottom: 3%; 
+    width: 60%; 
+    align-self: center;
+    margin-top:15%;
+}
+
+.request_email {
+	height: 48px;
+	font-family: 'Montserrat-Light';
+	font-size: 20px;
+	color: #e1f5fe;
+    text-align: left;
+    margin: 2% auto;
+}
+
+.eduEmail {
+    width: 355px;
+    font-size: 20px;
+    margin-top:5%;
+    color: #ffffff;
+}
+
+.centerBlock {
+                display: table;
+                margin: 0 auto;
+            }
+
+section {
+    padding-top:0px;
+    padding-bottom:20px;
+}
+
+.iphone {
+}
+
+#signUp {
+    height:553px;
+    background: url('../images/bottom_photo.jpg'); 
+    background-size: cover;
+}
+
+#demo {
+    height:700px;
+    background: url('../images/signUpbackground.png'); 
+    background-size: cover;
+}
+
+.feats {
+    max-height:249px;
+    max-width:282px;
+    height: auto;
+    width:auto;
+}
+
+.text {
+    margin: 0 auto;
+    width:75%;
+}
+#edu {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height:50px;
+    }
+.success {
+          position:absolute; 
+          z-index: 0;
+          visibility: hidden;
+}
+
+.signUpButton {
+    width: 300px;
+	  height: 50px;
+    margin-top: 2%;
+	  background: none;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #fff;
+    color: #fff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.signUpButton:hover {
+    width: 300px;
+    height: 50px;
+    margin-top: 2%;
+    background: #F9F9F9;
+    border-style:; solid;
+    border-radius: 12px;
+    border-color: #fff;
+    color: #4a4a4a;
+}
+
+.my-slider {
+    width: 60%;
+    margin: 0 auto;
+    background: none;
+    margin-top: 5%;
+}
+
+.bottomEnter {
+  width:60%; 
+  margin:0 auto;
+}
+      
+
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+
+.head {
+	width: 100%;
+	height: 705px;
+	background: url("../images/head-background.png");
+  display: inline-block;
+  background-size: contain;
+}
+/*=======================================
+    HEADER STYLES
+==================================================*/
+.head-main {
+    font-size:120px !important;
+    font-weight:900!important;
+    color:#585858!important;
+    text-decoration: underline;
+    padding:200px 20px 20px 20px;
+}
+
+.navLabel{
+	width: 134px;
+	height: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+
+/*=======================================
+    NAVIGATION STYLES
+==================================================*/
+
+
+nav {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+    background: #ffffff;
+    z-index:99;
+}
+
+.indiv {
+	position: absolute;
+	width: 80%;
+	height: 60px;
+    background: #ffffff;
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	min-height: 40px; 
+	z-index: 99;
+}
+
+.navbar-inverse {
+background-color: #525252;
+border: none;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto; 
+    margin-top:3%;
+    line-height: 25px;
+}
+
+
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+#footer {
+    background-color: #3498db;
+    color: #FFFFFF;
+    padding:20px 50px 20px 50px;
+    line-height: 30px;
+}
+
+#footer a:hover {
+	cursor: pointer;
+	color: #ffffff;
+}
+
+/* phone and mobile screens */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      
+      .head {
+        background: url('../images/MobileNav.png') no-repeat;
+        background-size:cover; 
+        height: 565px;
+      }
+
+      .tag {
+      text-align: left; 
+      margin: 5% 50% 1% 10%; 
+      margin-top: 225px;
+     width: 300px;
+     height: 165px;
+     padding-top:30%; 
+     margin-bottom: 10%; 
+     margin-right:5%; 
+     align-items: center;
+    }
+
+    .header1 {
+    margin: 0 auto; 
+    margin-bottom: 1%; 
+    width:80%; 
+    align-self: center;
+    margin-top:50%;
+  }
+
+    .signUpButton {
+        width: 300px;
+        height: 50px;
+        margin-top: 10%;
+        background: none;
+        border-style: solid;
+        border-radius: 12px;
+        border-color: #fff;
+        color: #fff;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+
+      
+      .request_email {
+          display: none;
+      }
+      
+      h5 {
+          text-align: center;
+          font-size: 24px;
+      }
+      
+      .iphone {
+          width:300px;
+          margin: 0 auto;
+      }
+      
+      #edu {
+          font-size: 20px;
+          text-align: left;
+      }
+      
+      label {
+          left: -130px;
+      }
+      .content {
+        width: 90%;
+        margin: 0 auto; 
+        margin-top:10%;
+        margin-bottom:15%;
+      }
+      .bottomEnter {
+        width:80%; 
+        margin:0 auto;
+      }
+
+      #edu {
+        padding-top: 50px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height:34px;
+    }
+}
+
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {  
+    h5 {
+        font-size: 40px;
+    }
+     #edu {
+        font-size: 28px;
+    }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+    .iphone {
+        left:10%;
+    }
+    h5 {
+        font-size: 40px;
+    }
+    
+    #edu {
+        font-size: 28px;
+    }
+}
